@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<!--[if IE]><![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>KeyMovie</title>
+
+	<link rel='stylesheet' id='amy-movie-extend-style-css'  href='wp-content/plugins/amy-movie-extend//assets/css/style.css?ver=4.8.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='fancybox-css'  href='wp-content/plugins/amy-user/assets/css/vendor/jquery.fancybox.css?ver=4.8.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='amy-user-style-css'  href='wp-content/plugins/amy-user/assets/css/style.css?ver=4.8.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.9' type='text/css' media='all' />
+	<link rel='stylesheet' id='rs-plugin-settings-css'  href='wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.3.0.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='js_composer_front-css'  href='wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-font-roboto-condensed-css'  href='https://fonts.googleapis.com/css?family=Roboto+Condensed&#038;ver=1.0.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='slick-style-css'  href='wp-content/themes/amy-movie/css/vendor/slick.css?ver=4.8.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='slick-theme-css'  href='wp-content/themes/amy-movie/css/vendor/slick-theme.css?ver=4.8.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='amy-movie-style-css'  href='wp-content/themes/amy-movie/css/style.css?ver=1.0.0' type='text/css' media='all' />
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.3.0.2'></script>
+	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.3.0.2'></script>
+
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
+	<link rel='stylesheet' href='css/style.css' type='text/css' media='all' />
+
+<body class="amy_movie-template-default single single-amy_movie postid-92 amy-header-default  single-author wpb-js-composer js-comp-ver-5.0.1 vc_responsive">
+	<div id="page" class="hfeed site">
+		<div id="amy-top-bar">
+			<div class="container">
+				<div class="amy-inner">
+					<div class="amy-top-bar-left pull-left">
+						<div class="amy-top-module amy-module-text " style="color: #ffffff;background-color: #9f599b">
+							<i class="fa fa-apple"></i>
+							<strong>VIP <em>SWEEPSTAKES</em> </strong>
+						</div>
+						<div class="amy-top-module amy-module-text " style="color: #fe7900;">
+							<strong>$5000 SHOPPING SPREE </strong><span>Join Movies VIP for a chance to win. Don't forget to join during checkout</span>					
+						</div>
+					</div>
+					<div class="amy-top-bar-right pull-right">
+						<div class="amy-top-module amy-module-login " style="">
+							<div class="box-user">
+								<a href="wp-login.php">
+									<i aria-hidden="true" class="fa fa-user"></i>Login
+								</a>
+							</div>											
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header id="masthead" class="site-header header-default has-search light">
+			<div class="container">
+				<div class="amy-inner">
+					<div class="pull-left">
+						<div id="amy-site-logo">
+							<a href="index.html" >
+								<img class="amy-logo amy-logo1x" src="wp-content/uploads/2016/12/img_66.png" alt="AmyMovie" />
+							</a>
+						</div>									
+						<div class="amy-shortcode amy-mv-search ">
+							<form role="search" action="index.html" method="get" id="searchform">
+								<input type="text" name="s" placeholder="Movie search..."/> 
+								<input type="hidden" name="post_type" value="amy_movie" />
+								<input type="submit" alt="Search" value="Go" />
+								<input type="hidden" name="amy_type" value="movie" class="amy_type"/>
+							</form>
+						</div>							
+					</div>
+					<div class="pull-right">
+						<nav id="amy-site-nav" class="amy-site-navigation amy-primary-navigation">
+							<div class="menu-mainnav-container">
+								<ul id="menu-mainnav" class="nav-menu">
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-121">
+										<a href="index.html">Home</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-121">
+										<a href="#">Movie List</a>
+									</li>
+									<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-121">
+										<a href="#">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+						<div id="amy-menu-toggle"><a><span></span></a></div>
+					</div>
+				</div>
+			</div>
+			<div id="amy-site-header-shadow"></div>
+		</header>
+	</div>
+	
+	<div id="main">
+		<div id="content" class="site-content">
+			<section id="amy-page-header" class=" full">
+				<img width="1920" height="600" src="wp-content/uploads/2016/12/img_23.jpg" class="attachment-full size-full" alt="" sizes="(max-width: 1920px) 100vw, 1920px" />	
+			</section>
+			<section class="main-content amy-movie single-movie layout-full has-banner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="page-content">
+								<article id="post-92" class="post-92 amy_movie type-amy_movie status-publish amy_genre-drama amy_actor-greta-garbo amy_director-kingia-rogers">
+									<div class="row amy-single-movie">
+										<div class="col-md-4 col-sm-4">
+											<div class="entry-thumb">
+												<img width="360" height="618" src="wp-content/uploads/2016/12/img_9.jpg" class="attachment-360x618 size-360x618" alt="" sizes="(max-width: 360px) 100vw, 360px" />
+											</div>
+										</div>
+										<div class="col-md-8 col-sm-8">
+											<div class="entry-info">
+												<h1 class="entry-title p-name" itemprop="name headline">
+													<a href="" rel="bookmark" class="u-url url" itemprop="url">
+														The Sleeping Beauty &#8211; Australia
+													</a>
+													</h1>
+												<div class="entry-pg">
+													<span class="pg">PG</span>
+													<span class="duration">
+														<i class="fa fa-clock-o"></i>
+														02 hours 00 minutes				
+													</span>
+												</div>
+												<ul class="info-list">
+													<li>
+														<label>Actor:</label>
+														<span><a href="">Greta Garbo</a></span>
+													</li>
+													<li>
+														<label>Director:</label>
+														<span><a href="">Kingia Rogers</a></span>
+													</li>
+													<li>
+														<label>Genre:</label>
+														<span><a href="">Drama</a></span>
+													</li>
+													<li>
+														<label>Release:</label>
+														<span>July 28, 2017</span>
+													</li>
+													<li>
+														<label>Language:</label>
+														<span>English </span>
+													</li>
+													<li>
+														<label>Cinema:</label>
+														<a href="">Grand Seats</a>
+										, 				<a href="">GV Max</a>
+										, 				<a href="">GV Vivocity</a>
+													</li>
+												</ul>
+											</div>
+											<div class="entry-action">
+												<div class="mrate user-rate has-rate">
+													<ul class="movie-rating-stars">
+														<li>
+															<a class="movie-rating-star movie-rating-star-1" data-value="1" data-post="92"></a>
+														</li>
+														<li>
+															<a class="movie-rating-star movie-rating-star-2" data-value="2" data-post="92"></a>
+														</li>
+														<li>
+															<a class="movie-rating-star movie-rating-star-3" data-value="3" data-post="92"></a>
+														</li>
+														<li>
+															<a class="movie-rating-star movie-rating-star-4" data-value="4" data-post="92"></a>
+														</li>
+														<li>
+															<a class="movie-rating-star movie-rating-star-5" data-value="5" data-post="92"></a>
+														</li>
+													</ul>
+													<ul class="mv-rating-stars">
+														<li class="mv-current-rating user-rating" data-point="84%"></li>
+													</ul>
+													<span class="mcount">21 votes</span>
+													<span class="rate">4.2</span>
+												</div>
+												<div class="entry-share">
+													<label>Share:</label>
+													<ul class="amy-social-links clearfix">
+														<li>
+															<a href="" class="fa fa-facebook" target="_blank"></a>
+														</li>
+														<li>
+															<a href="" class="fa fa-twitter" target="_blank"></a>
+														</li>
+														<li>
+															<a href="" class="fa fa-google-plus" target="_blank"></a>
+														</li>
+														<li>
+															<a href="" class="fa fa-pinterest" target="_blank"></a>
+														</li>
+													</ul>					
+												</div>
+												<div class="clearfix"></div>
+											</div>
+											<div class="entry-content e-content" itemprop="description articleBody">
+												<h3 class="info-name amy-title">Synopsis</h3>
+												<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+												<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+												<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											</div>
+										</div>
+									</div>
+									<div class="entry-media">
+										<h3 class="info-name amy-title">Video &amp; Photo</h3>
+										<div class="number-media">
+											<span class="video"><i></i>1 videos</span>
+											<span class="gallery"><i></i>6 photos</span>
+										</div>
+										<div class="media-carousel">
+											<div class="amy-slick" data-slick='{"slidesToShow":4,"slidesToScroll":4,"autoplay":true,"autoplaySpeed":3000,"arrows":true,"infinite":true,"dots":false}'>
+												<div class="media-item">
+													<a href="wp-content/uploads/2016/12/img_34.jpg" class="amy-fancybox" rel="movie-gallery">
+														<img width="200" height="142" src="wp-content/uploads/2016/12/img_34.jpg" class="attachment-200x150 size-200x150" alt="" sizes="(max-width: 200px) 100vw, 200px" />
+													</a>
+												</div>
+												<div class="media-item">
+													<a href="wp-content/uploads/2016/12/img_35.jpg" class="amy-fancybox" rel="movie-gallery">
+														<img width="200" height="142" src="wp-content/uploads/2016/12/img_35.jpg" class="attachment-200x150 size-200x150" alt=""  sizes="(max-width: 200px) 100vw, 200px" />
+													</a>
+												</div>
+												<div class="media-item">
+													<a href="wp-content/uploads/2016/12/img_36.jpg" class="amy-fancybox" rel="movie-gallery">
+														<img width="200" height="142" src="wp-content/uploads/2016/12/img_36.jpg" class="attachment-200x150 size-200x150" alt="" sizes="(max-width: 200px) 100vw, 200px" />							
+													</a>
+												</div>
+												<div class="media-item">
+													<a href="wp-content/uploads/2016/12/img_37.jpg" class="amy-fancybox" rel="movie-gallery">
+														<img width="200" height="142" src="wp-content/uploads/2016/12/img_37.jpg" class="attachment-200x150 size-200x150" alt="" sizes="(max-width: 200px) 100vw, 200px" />							
+													</a>
+												</div>
+												<div class="media-item">
+													<a href="wp-content/uploads/2016/12/img_38.jpg" class="amy-fancybox" rel="movie-gallery">
+														<img width="200" height="142" src="wp-content/uploads/2016/12/img_38.jpg" class="attachment-200x150 size-200x150" alt="" sizes="(max-width: 200px) 100vw, 200px" />							
+													</a>
+												</div>
+												<div class="media-item">
+													<a href="wp-content/uploads/2016/12/img_39.jpg" class="amy-fancybox" rel="movie-gallery">
+														<img width="200" height="142" src="wp-content/uploads/2016/12/img_39.jpg" class="attachment-200x150 size-200x150" alt="" sizes="(max-width: 200px) 100vw, 200px" />							
+													</a>
+												</div>
+												<div class="media-item">
+													<a href="https://player.vimeo.com/video/38156752" class="fancybox.iframe amy-fancybox">
+														<img src="" />							
+														<i class="fa fa-play"></i>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="entry-showtime">
+										<div class="clearfix">
+											<h3 class="info-name amy-title">Showtime</h3>
+										</div>
+										<div class="select-cinema">
+											<h4>Select a cinema</h4>
+											<ul>
+												<li data-cinema="79" data-movie="92">Grand Seats</li>
+												<li data-cinema="80" data-movie="92">GV Max</li>
+												<li data-cinema="78" data-movie="92">GV Vivocity</li>
+											</ul>
+										</div>
+										<div class="showtime"></div>
+										<div class="clearfix"></div>
+									</div>
+									<div class="entry-comment">
+										<div class="amy-comment-form">
+											<div id="respond" class="comment-respond">
+												<h3 id="reply-title" class="comment-reply-title amy-title">Write a comment 
+													<small>
+														<a rel="nofollow" id="cancel-comment-reply-link" href="" style="display:none;">Cancel reply</a>
+													</small>
+												</h3>			
+												<form action="wp-comments-post.php" method="post" id="commentform" class="comment-form" >
+													<p class="comment-notes">
+														<span id="email-notes">Your email address will not be published.</span> 
+														Required fields are marked <span class="required">*</span>
+													</p>
+													<p class="comment-form-comment">
+														<label for="comment">Comment 
+														<span class="required">*</span>
+													</label>
+													<textarea name="comment" id="comment" cols="45" rows="8" max-length="65525" aria-required="true" required="required"></textarea>
+													<div class="row">
+														<div class="col-md-4">
+															<p class="comment-form-author">
+																<label for="author">Name 
+																	<span class="required">*</span>
+																</label>
+																<input type="text" value="" id="author" name="author" size="30" maxlength="245" aria-required="true" required="required" />
+															</p>
+														</div>
+														<div class="col-md-4">
+															<p class="comment-form-email">
+																<label for="email">Email 
+																	<span class="required">*</span>
+																</label>
+																<input type="email" value="" id="email" name="email" size="30" maxlength="100" aria-describedby="email-notes" aria-required="true" required="required"/>
+															</p>
+														</div>
+														<div class="col-md-4">
+															<p class="comment-form-url">
+																<label for="url">Website</label>
+																<input type="url" value="" id="url" name="url" size="30" maxlength="200" />
+															</p>
+														</div>
+													</div>
+													<p class="form-submit">
+														<input name="submit" type="submit" id="submit" class="submit" value="Post Comment" /> 
+														<input type='hidden' name='comment_post_ID' value='92' id='comment_post_ID' />
+														<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+													</p>
+												</form>
+											</div>
+										</div>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<footer id="amy-colophon" class="amy-site-footer">
+		<div class="container">
+			<div class="amy-footer-widgets">
+				<div class="row">
+					<div class="col-md-3 col-xs-12">
+						<div class="amy-widget amy-widget-module">
+							<div class="amy-widget amy-widget-module about ">
+								<div class="footer-logo">
+									<a href="">
+										<img width="155" height="51" src="wp-content/uploads/2016/12/img_65.png" class="attachment-full size-full" alt="" />
+									</a>
+								</div>
+								<div class="summary">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="amy-widget amy-widget-module">
+							<div class="amy-widget amy-widget-module social ">
+								<ul class="amy-social-list">
+									<li>
+										<a href="#" class="fa fa-facebook"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-twitter"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-google-plus"></a>
+									</li>
+									<li>
+										<a href="#" class="fa fa-pinterest"></a>
+									</li>
+								</ul>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-12">
+						<div class="amy-widget widget_nav_menu">
+							<div class="amy-widget-title">
+								<h4>Custom Services</h4>
+							</div>
+							<div class="amy-widget-content">
+								<ul id="menu-footer-menu" class="menu">
+									<li id="menu-item-138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138">
+										<a href="#">Help &#038; Contact</a>
+									</li>
+									<li id="menu-item-139" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139">
+										<a href="#">Return Policy</a>
+									</li>
+									<li id="menu-item-140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-140">
+										<a href="#">Feed Back</a>
+									</li>
+									<li id="menu-item-141" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-141">
+										<a href="#">Careers</a>
+									</li>
+								</ul>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-12">
+						<div class="amy-widget amy-widget-list">
+							<div class="amy-widget amy-widget-list list-post footer-recent-post">
+								<h4 class="amy-title amy-widget-title">Recent Posts</h4>
+								<div class="entry-item">
+									<div class="entry-thumb">
+										<img width="120" height="85" src="wp-content/uploads/2016/12/img_60-120x85.jpg" class="attachment-120x85 size-120x85 wp-post-image" alt="" />
+									</div>
+									<div class="entry-content">
+										<h2 class="entry-title">
+											<a href="">Doctor Strange assembles with the Avengers</a>
+										</h2>
+										<div class="entry-meta">
+											<span class="entry-date">December 20, 2016</span>
+											<span> / </span>
+											<span class="entry-comment">0 Comments</span>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="entry-item">
+									<div class="entry-thumb">
+										<img width="120" height="85" src="wp-content/uploads/2016/12/img_52-120x85.jpg" class="attachment-120x85 size-120x85 wp-post-image" alt="" />
+									</div>
+									<div class="entry-content">
+										<h2 class="entry-title">
+											<a href="">5 movies to watch this week (29 Sep 2016)</a>
+										</h2>
+										<div class="entry-meta">
+											<span class="entry-date">December 20, 2016</span>
+											<span> / </span>
+											<span class="entry-comment">0 Comments</span>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-12">
+						<div class="amy-widget amy-widget-module">
+							<div class="amy-widget amy-widget-module contact ">
+								<h4 class="amy-title amy-widget-title">Contact Us</h4>
+								<div class="address">
+									<i class="fa fa-location-arrow" aria-hidden="true"></i>
+									9067 Zurich, Switzerland 87
+								</div>
+								<div class="email">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+									abc@gmail.com
+								</div>
+								<div class="phone">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									01-234-5678
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="amy-widget widget_mc4wp_form_widget">
+							<form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-111" method="post" data-id="111" data-name="Form" >
+								<div class="mc4wp-form-fields">
+									<div class="newsletter-input-wrapper">
+										<input type="email" name="EMAIL" placeholder="Your email address" required />
+										<input type="submit" value="Subscribe" />
+									</div>
+									<label style="display: none !important;">Leave this field empty if you're human: 
+										<input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" />
+									</label>
+									<input type="hidden" name="_mc4wp_timestamp" value="1506616326" />
+									<input type="hidden" name="_mc4wp_form_id" value="111" />
+									<input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+								</div>
+								<div class="mc4wp-response"></div>
+							</form>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div id="amy-copyright" class="amy-copyright">
+			<div class="container"><div class="amy-inner">
+				<div class="amy-copyright-left pull-left">
+					<div class="amy-copyright-module amy-module-text " style="">
+						©copyright 2016 Movie
+					</div>
+				</div>
+				<div class="amy-copyright-right pull-right">
+					<div class="amy-copyright-module amy-module-menu " style="">
+						<div class="amy-menu">
+							<ul class="menu">
+								<li class="menu-item">
+									<a href="#">Privacy Policy</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Terms of us</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Site Map</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<link rel='stylesheet' id='prettyphoto-css'  href='wp-content/plugins/js_composer/assets/lib/prettyphoto/css/prettyPhoto.min.css?ver=5.0.1' type='text/css' media='all' />
+	<link rel='stylesheet' id='vc_pageable_owl-carousel-css-css'  href='wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/assets/owl.min.css?ver=5.0.1' type='text/css' media='' />
+	<link rel='stylesheet' id='animate-css-css'  href='wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.0.1' type='text/css' media='' />
+	<script type='text/javascript' src='wp-content/plugins/amy-user/assets/js/vendor/jquery.fancybox.js?ver=2.1.5'></script>
+	<script type='text/javascript' src='wp-content/plugins/amy-user/assets/js/script.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.9'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/widget.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/slick.min.js?ver=1.6.0'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/isotope.pkgd.js?ver=3.0.1'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/masonry-horizontal.js?ver=2.0.0'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/kinetic.js?ver=2.0.1'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/smoothdivscroll.js?ver=1.3'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/vendor/jquery.mousewheel.min.js?ver=3.1.11'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+	<script type='text/javascript' src='wp-content/themes/amy-movie/js/script.js?ver=1.0.0'></script>
+	<script type='text/javascript' src='wp-includes/js/wp-embed.min.js?ver=4.8.2'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js?ver=5.0.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/bower/masonry/dist/masonry.pkgd.min.js?ver=5.0.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/owl-carousel2-dist/owl.carousel.min.js?ver=5.0.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/bower/imagesloaded/imagesloaded.pkgd.min.js?ver=4.8.2'></script>
+	<script type='text/javascript' src='wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.0.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/vc_grid.min.js?ver=5.0.1'></script>
+	<script type='text/javascript' src='wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.1.9'></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
