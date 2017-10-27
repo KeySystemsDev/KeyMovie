@@ -13,3 +13,38 @@
     padding-top: 50px !important;
     padding-bottom: 50px !important;
 }
+.single-movie .entry-showtime .select-cinema h4 {
+    background: transparent!important;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 24px;
+    margin: 15px 0px;
+    padding-left: 35px;
+    text-transform: uppercase;
+}
+.center{
+
+}
+.select-downloads h4 {
+    background: #f8f8f8;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 0px 0px;
+    padding: 15px;
+    text-transform: uppercase;
+
+        margin-bottom: 5px;
+
+}
+.box-downloads{
+    background: #f8f8f8;
+    padding: 15px;
+    text-transform: uppercase;
+        color: #666;
+        font-weight: bold;
+        font-size: 15px;
+}
